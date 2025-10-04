@@ -1,0 +1,22 @@
+# Track input images
+!images/*.png
+!images/*.jpg
+
+# Ignore output images
+output/*.png
+output/*.jpg
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore IDE settings (optional)
+.vscode/
+.idea/
+
+# Ignore output folders
+output/
