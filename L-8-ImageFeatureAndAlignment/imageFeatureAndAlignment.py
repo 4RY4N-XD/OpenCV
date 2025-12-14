@@ -39,7 +39,7 @@ im2_gray = cv2.cvtColor(im2, cv2.COLOR_BGR2GRAY)
 #Detect ORB features and compute desciptions
 MAX_NUM_FEATURES = 500
 orb = cv2.ORB_create(MAX_NUM_FEATURES)
-keypoints1, descriptors1 = orb.detectAndCompute(im1_gray, None)
+keypoints1, descriptors1 = orb.detectAndCompute(im1_gray, None)  #keypoints : values, desciptors : vector associated to that
 keypoints2, descriptors2 = orb.detectAndCompute(im2_gray, None)
 
 #Display 
